@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projet</title>
+</head>
+<body>
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+        nono79            A mix of alphanumeric characters and numbers
+        ground-level      A mix of alphanumeric characters and a dash
+        -test             A dash followed by alphanumeric characters
+        _internal         An underscore followed by alphanumeric characters
+        \22 toto          A Unicode character followed by a sequence of alphanumeric characters
+        bili\.bob         A correctly escaped period
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }where 
+      <keyframes-name> = <custom-ident> (pt-br) | (pt-br) <string> (pt-br)
+      <keyframe-block-list> = <keyframe-block>+ (pt-br)
+      
+      where 
+      <keyframe-block> = <keyframe-selector># (pt-br) {
+        <declaration-list>
+      ifinite}
+      
+      where 
+      <keyframe-selector> = from | (pt-br) to | (pt-br) <percentage> (pt-br)
+
+    
+</body>
+</html>
